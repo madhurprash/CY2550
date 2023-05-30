@@ -1,0 +1,174 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 13:30 ?        00:00:01 /sbin/init splash
+root           2       0  0 13:30 ?        00:00:00 [kthreadd]
+root           3       2  0 13:30 ?        00:00:00 [rcu_gp]
+root           4       2  0 13:30 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 13:30 ?        00:00:00 [slub_flushwq]
+root           6       2  0 13:30 ?        00:00:00 [netns]
+root           8       2  0 13:30 ?        00:00:00 [kworker/0:0H-events_highpri]
+root           9       2  0 13:30 ?        00:00:01 [kworker/u2:0-events_unbound]
+root          10       2  0 13:30 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 13:30 ?        00:00:00 [rcu_tasks_kthread]
+root          12       2  0 13:30 ?        00:00:00 [rcu_tasks_rude_kthread]
+root          13       2  0 13:30 ?        00:00:00 [rcu_tasks_trace_kthread]
+root          14       2  0 13:30 ?        00:00:00 [ksoftirqd/0]
+root          15       2  0 13:30 ?        00:00:00 [rcu_preempt]
+root          16       2  0 13:30 ?        00:00:00 [migration/0]
+root          17       2  0 13:30 ?        00:00:00 [idle_inject/0]
+root          19       2  0 13:30 ?        00:00:00 [cpuhp/0]
+root          20       2  0 13:30 ?        00:00:00 [kdevtmpfs]
+root          21       2  0 13:30 ?        00:00:00 [inet_frag_wq]
+root          22       2  0 13:30 ?        00:00:00 [kauditd]
+root          23       2  0 13:30 ?        00:00:00 [khungtaskd]
+root          24       2  0 13:30 ?        00:00:00 [oom_reaper]
+root          25       2  0 13:30 ?        00:00:00 [kworker/u2:1-events_unbound]
+root          27       2  0 13:30 ?        00:00:00 [writeback]
+root          28       2  0 13:30 ?        00:00:00 [kcompactd0]
+root          29       2  0 13:30 ?        00:00:00 [ksmd]
+root          30       2  0 13:30 ?        00:00:00 [khugepaged]
+root          31       2  0 13:30 ?        00:00:00 [kintegrityd]
+root          32       2  0 13:30 ?        00:00:00 [kblockd]
+root          33       2  0 13:30 ?        00:00:00 [blkcg_punt_bio]
+root          34       2  0 13:30 ?        00:00:00 [tpm_dev_wq]
+root          35       2  0 13:30 ?        00:00:00 [ata_sff]
+root          36       2  0 13:30 ?        00:00:00 [md]
+root          37       2  0 13:30 ?        00:00:00 [edac-poller]
+root          38       2  0 13:30 ?        00:00:00 [devfreq_wq]
+root          39       2  0 13:30 ?        00:00:00 [watchdogd]
+root          40       2  0 13:30 ?        00:00:01 [kworker/0:1H-kblockd]
+root          41       2  0 13:30 ?        00:00:00 [kswapd0]
+root          42       2  0 13:30 ?        00:00:00 [ecryptfs-kthread]
+root          43       2  0 13:30 ?        00:00:00 [kthrotld]
+root          44       2  0 13:30 ?        00:00:00 [acpi_thermal_pm]
+root          45       2  0 13:30 ?        00:00:00 [xenbus_probe]
+root          46       2  0 13:30 ?        00:00:00 [scsi_eh_0]
+root          48       2  0 13:30 ?        00:00:00 [scsi_tmf_0]
+root          49       2  0 13:30 ?        00:00:00 [scsi_eh_1]
+root          50       2  0 13:30 ?        00:00:00 [scsi_tmf_1]
+root          51       2  0 13:30 ?        00:00:00 [kworker/u2:4-events_unbound]
+root          54       2  0 13:30 ?        00:00:00 [mld]
+root          55       2  0 13:30 ?        00:00:00 [ipv6_addrconf]
+root          62       2  0 13:30 ?        00:00:00 [kstrp]
+root          64       2  0 13:30 ?        00:00:00 [zswap-shrink]
+root          65       2  0 13:30 ?        00:00:00 [kworker/u3:0]
+root          69       2  0 13:30 ?        00:00:00 [charger_manager]
+root         112       2  0 13:30 ?        00:00:00 [scsi_eh_2]
+root         113       2  0 13:30 ?        00:00:00 [scsi_tmf_2]
+root         136       2  0 13:30 ?        00:00:00 [jbd2/sda2-8]
+root         137       2  0 13:30 ?        00:00:00 [ext4-rsv-conver]
+root         187       1  0 13:30 ?        00:00:00 /lib/systemd/systemd-journald
+root         213       2  0 13:30 ?        00:00:00 [kworker/0:5-events]
+root         215       2  0 13:30 ?        00:00:00 [kworker/0:7-cgwb_release]
+root         228       1  0 13:30 ?        00:00:00 /lib/systemd/systemd-udevd
+systemd+     269       1  0 13:30 ?        00:00:00 /lib/systemd/systemd-oomd
+systemd+     271       1  0 13:30 ?        00:00:00 /lib/systemd/systemd-resolved
+systemd+     272       1  0 13:30 ?        00:00:00 /lib/systemd/systemd-timesyncd
+root         324       2  0 13:30 ?        00:00:00 [cryptd]
+root         349       2  0 13:30 ?        00:00:00 [irq/18-vmwgfx]
+root         535       1  0 13:31 ?        00:00:00 /usr/sbin/anacron -d -q -s
+avahi        537       1  0 13:31 ?        00:00:00 avahi-daemon: running [madhur-VirtualBox.local]
+message+     538       1  0 13:31 ?        00:00:00 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         548       1  0 13:31 ?        00:00:01 /usr/libexec/polkitd --no-debug
+root         549       1  0 13:31 ?        00:00:00 /usr/libexec/power-profiles-daemon
+root         562       1  0 13:31 ?        00:00:01 /usr/lib/snapd/snapd
+root         564       1  0 13:31 ?        00:00:00 /usr/libexec/accounts-daemon
+root         571       1  0 13:31 ?        00:00:00 /usr/sbin/cron -f -P
+root         572       1  0 13:31 ?        00:00:00 /usr/libexec/switcheroo-control
+root         573       1  0 13:31 ?        00:00:00 /lib/systemd/systemd-logind
+root         584       1  0 13:31 ?        00:00:00 /usr/libexec/udisks2/udisksd
+avahi        597     537  0 13:31 ?        00:00:00 avahi-daemon: chroot helper
+root         606       1  0 13:31 ?        00:00:00 /usr/sbin/NetworkManager --no-daemon
+root         615       1  0 13:31 ?        00:00:00 /usr/sbin/ModemManager
+root         619       1  0 13:31 ?        00:00:00 /sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev
+root         651       1  0 13:31 ?        00:00:00 /usr/sbin/cupsd -l
+root         654       1  0 13:31 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+syslog       677       1  0 13:31 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+cups-br+     701       1  0 13:31 ?        00:00:00 /usr/sbin/cups-browsed
+kernoops     715       1  0 13:31 ?        00:00:00 /usr/sbin/kerneloops --test
+kernoops     718       1  0 13:31 ?        00:00:00 /usr/sbin/kerneloops
+root        1055       1  0 13:31 ?        00:00:00 /usr/sbin/gdm3
+rtkit       1094       1  0 13:31 ?        00:00:00 /usr/libexec/rtkit-daemon
+root        1193       1  0 13:31 ?        00:00:00 /usr/libexec/upowerd
+colord      1218       1  0 13:31 ?        00:00:00 /usr/libexec/colord
+root        1479    1055  0 13:32 ?        00:00:00 gdm-session-worker [pam/gdm-password]
+madhur      1484       1  0 13:32 ?        00:00:00 /lib/systemd/systemd --user
+madhur      1485    1484  0 13:32 ?        00:00:00 (sd-pam)
+madhur      1491    1484  0 13:32 ?        00:00:00 /usr/bin/pipewire
+madhur      1494    1484  0 13:32 ?        00:00:00 /usr/bin/wireplumber
+madhur      1498    1484  0 13:32 ?        00:00:00 /usr/bin/pipewire-pulse
+madhur      1499    1484  0 13:32 ?        00:00:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+madhur      1501    1484  0 13:32 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+madhur      1513    1484  0 13:32 ?        00:00:00 /usr/libexec/xdg-document-portal
+madhur      1517    1484  0 13:32 ?        00:00:00 /usr/libexec/xdg-permission-store
+madhur      1519    1479  0 13:32 tty2     00:00:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+madhur      1529    1519  0 13:32 tty2     00:00:00 /usr/libexec/gnome-session-binary --session=ubuntu
+root        1530    1513  0 13:32 ?        00:00:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+madhur      1612    1484  0 13:32 ?        00:00:00 /usr/libexec/gcr-ssh-agent /run/user/1000/gcr
+madhur      1622    1484  0 13:32 ?        00:00:00 /usr/libexec/gnome-session-ctl --monitor
+madhur      1625    1484  0 13:32 ?        00:00:00 ssh-agent -D -a /run/user/1000/openssh_agent
+madhur      1646    1484  0 13:32 ?        00:00:00 /usr/libexec/gvfsd
+madhur      1664    1484  0 13:32 ?        00:00:00 /usr/libexec/dconf-service
+madhur      1679    1484  0 13:32 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+madhur      1757    1484  0 13:32 ?        00:00:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+madhur      1774    1484  3 13:32 ?        00:00:16 /usr/bin/gnome-shell
+madhur      1775    1757  0 13:32 ?        00:00:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+madhur      1788    1775  0 13:32 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+madhur      1808    1484  0 13:32 ?        00:00:00 /usr/libexec/gnome-shell-calendar-server
+madhur      1816    1484  0 13:32 ?        00:00:00 /usr/libexec/evolution-source-registry
+madhur      1830    1484  0 13:32 ?        00:00:00 /usr/libexec/goa-daemon
+madhur      1833    1484  0 13:32 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+madhur      1843    1484  0 13:32 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+madhur      1862    1484  0 13:32 ?        00:00:00 /usr/libexec/goa-identity-service
+madhur      1873    1484  0 13:32 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+madhur      1881    1484  0 13:32 ?        00:00:00 /snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration
+madhur      1885    1484  0 13:32 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+madhur      1896    1484  0 13:32 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+madhur      1908    1484  0 13:32 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+madhur      1917    1484  0 13:32 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+madhur      1947    1484  0 13:32 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+madhur      2009    1646  0 13:32 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.20 /org/gtk/gvfs/exec_spaw/0
+madhur      2037    1484  0 13:32 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+madhur      2061    1484  0 13:32 ?        00:00:00 sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && echo "--xim")
+madhur      2062    1484  0 13:32 ?        00:00:00 /usr/libexec/gsd-a11y-settings
+madhur      2063    1484  0 13:32 ?        00:00:00 /usr/libexec/gsd-color
+madhur      2064    1484  0 13:32 ?        00:00:00 /usr/libexec/gsd-datetime
+madhur      2065    1484  0 13:32 ?        00:00:00 /usr/libexec/gsd-housekeeping
+madhur      2066    1484  0 13:32 ?        00:00:00 /usr/libexec/gsd-keyboard
+madhur      2067    1881  0 13:32 ?        00:00:00 /snap/snapd-desktop-integration/83/usr/bin/snapd-desktop-integration
+madhur      2069    1484  0 13:32 ?        00:00:00 /usr/libexec/gsd-media-keys
+madhur      2072    1484  0 13:32 ?        00:00:00 /usr/libexec/gsd-power
+madhur      2073    1484  0 13:32 ?        00:00:00 /usr/libexec/gsd-print-notifications
+madhur      2074    1484  0 13:32 ?        00:00:00 /usr/libexec/gsd-rfkill
+madhur      2088    1757  0 13:32 ?        00:00:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+madhur      2089    2061  0 13:32 ?        00:00:00 /usr/bin/ibus-daemon --panel disable
+madhur      2091    1484  0 13:32 ?        00:00:00 /usr/libexec/gsd-screensaver-proxy
+madhur      2092    1484  0 13:32 ?        00:00:00 /usr/libexec/gsd-sharing
+madhur      2093    1484  0 13:32 ?        00:00:00 /usr/libexec/gsd-smartcard
+madhur      2094    1484  0 13:32 ?        00:00:00 /usr/libexec/gsd-sound
+madhur      2097    1484  0 13:32 ?        00:00:00 /usr/libexec/gsd-wacom
+madhur      2098    1484  0 13:32 ?        00:00:00 /usr/libexec/xdg-desktop-portal
+madhur      2100    1757  0 13:32 ?        00:00:00 /usr/libexec/gsd-disk-utility-notify
+madhur      2218    1484  0 13:32 ?        00:00:00 /usr/libexec/gsd-printer
+madhur      2223    1484  0 13:32 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gnome
+madhur      2245    2089  0 13:32 ?        00:00:00 /usr/libexec/ibus-memconf
+madhur      2246    2089  0 13:32 ?        00:00:02 /usr/libexec/ibus-extension-gtk3
+madhur      2251    1484  0 13:32 ?        00:00:00 /usr/libexec/ibus-portal
+madhur      2262    2089  0 13:32 ?        00:00:00 /usr/libexec/ibus-engine-simple
+madhur      2271    1484  0 13:32 ?        00:00:00 /usr/libexec/gvfsd-metadata
+madhur      2313    1484  0 13:32 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gtk
+madhur      2324    1484  0 13:32 ?        00:00:02 /usr/libexec/gnome-initial-setup --existing-user
+madhur      2329    1484  0 13:32 ?        00:00:00 /usr/libexec/tracker-miner-fs-3
+madhur      2352    1484  0 13:32 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+madhur      2457    1774  0 13:32 ?        00:00:00 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com
+madhur      2495    1484  0 13:32 ?        00:00:00 /usr/bin/gnome-calendar --gapplication-service
+madhur      2498    1484  0 13:32 ?        00:00:01 /usr/libexec/gnome-terminal-server
+madhur      2622    2498  0 13:32 pts/0    00:00:00 bash
+madhur      2659    1757  0 13:33 ?        00:00:00 /usr/bin/update-notifier
+root        2859       1  0 13:33 ?        00:00:01 /usr/bin/python3 /usr/sbin/aptd
+madhur      2901    1774  0 13:33 ?        00:00:00 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.3PTS41 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7
+madhur      2920    1484  0 13:33 ?        00:00:00 /usr/libexec/gsd-xsettings
+madhur      2956    1484  0 13:33 ?        00:00:00 /usr/libexec/ibus-x11
+madhur      2974    1774  0 13:33 ?        00:00:00 /usr/libexec/mutter-x11-frames
+root        3381       2  0 13:40 ?        00:00:00 [kworker/u2:2-events_unbound]
+root        3382       2  0 13:40 ?        00:00:00 [kworker/0:0-events]
+madhur      3385    2622 99 13:41 pts/0    00:00:00 ps -ef
