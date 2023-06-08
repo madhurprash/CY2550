@@ -12,3 +12,4 @@ classes: $(CLASSES:=.class)
 
 clean:
     $(RM) *.class
+ 
