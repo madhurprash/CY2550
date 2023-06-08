@@ -8,9 +8,9 @@ JFLAGS = -g
 CLASSES = \
     xkcdpwgen.java
 
-default: classes xkcdpwgen
+default: classes
 
-classes: $(CLASSES:.java=.class)
+classes: $(CLASSES)
 
 clean:
     $(RM) *.class
