@@ -1,4 +1,4 @@
-// Represents importing relevant java libraries to make the generation
+ // Represents importing relevant java libraries to make the generation
 // of this program possible
 import java.util.*;
 import java.io.*;
