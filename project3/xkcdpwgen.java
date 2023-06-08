@@ -171,7 +171,13 @@ public class xkcdpwgen {
         } catch (IOException e) {
             System.err.println("Error loading word list: " + e.getMessage());
             System.exit(1);
+        } finally {
+        try {
+            br.close();
+        } catch (IOException e) {
+            System.err.println("Error: " + e.getMessage());
         }
+    }
         
         return words;
     }
