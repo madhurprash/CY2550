@@ -1,4 +1,4 @@
- // Represents importing relevant java libraries to make the generation
+// Represents importing relevant java libraries to make the generation
 // of this program possible
 import java.util.*;
 import java.io.*;
@@ -21,7 +21,7 @@ public class xkcdpwgen {
     // Represents the symbols that can be used in the password
     private static final String UNIQUE_SYMBOLS = "~!@#$%^&*.:;";
     
-    // Represents the file with all of the possible words
+    // Represents the f/ile with all of the possible words
     private static final String word_List = "words.txt";
     
     // Represents the initialization of the main method, to take in the 
@@ -47,7 +47,7 @@ public class xkcdpwgen {
         // Represents prompting the user to enter command line 
         // arguments in the process of enhancing the password
         // generation process
-        for (int i = 0; i < args.length; i++){
+        for (int i = 0; i < args.length; i+=2){
             
             // Represents the value in integer form in the duration
             // of looping
@@ -172,8 +172,9 @@ public class xkcdpwgen {
             System.err.println("Error loading word list: " + e.getMessage());
             System.exit(1);
         }
-    }
         
         return words;
     
 }
+}
+
