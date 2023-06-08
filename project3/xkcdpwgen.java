@@ -47,7 +47,7 @@ public class xkcdpwgen {
         // Represents prompting the user to enter command line 
         // arguments in the process of enhancing the password
         // generation process
-        for (int i = 0; i < args.length; i+=2){
+        for (int i = 0; i < args.length; i++){
             
             // Represents the value in integer form in the duration
             // of looping
@@ -100,9 +100,6 @@ public class xkcdpwgen {
                     // assigning the value to the numbers
                     numbers = int_val;
                     break;
-                
-                default:
-                    System.exit(1);
             }
         }
         
@@ -114,7 +111,7 @@ public class xkcdpwgen {
         
         // Represents printing the password for the user that is 
         // generated
-        System.out.println(String.join("", passwordGenerated));
+        System.out.println(passwordGenerated);
     }
 
     public static String generation_password(int words, int caps, int numbers, int unique_symbols) {
