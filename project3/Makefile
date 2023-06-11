@@ -11,4 +11,4 @@ default: classes
 classes: $(CLASSES:=.class)
 
 clean:
-    $(RM) *.class
+    $(RM) *.class 
