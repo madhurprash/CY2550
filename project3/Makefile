@@ -1,15 +1,15 @@
 JC = javac
 JFLAGS = -g
 
-.PHONY: default classes clean force
+.PHONY: default classes clean
 
 default: classes
 
-classes: force
-	$(JC) $(JFLAGS) xkcdpwgen.java
+classes: xkcdpwgen.class
 
 clean:
 	@echo "Cleaning up..."
 	@$(RM) xkcdpwgen.class
 
-force: ;
+xkcdpwgen.class: xkcdpwgen.java
+	$(JC) $(JFLAGS) xkcdpwgen.java
