@@ -13,3 +13,4 @@ clean:
 
 xkcdpwgen.class: xkcdpwgen.java
 	$(JC) $(JFLAGS) xkcdpwgen.java
+
