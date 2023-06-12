@@ -27,7 +27,7 @@ public class xkcdpwgen {
     // Represents the initialization of the main method, to take in the 
     // number of words, capslocks, numbers, and symbols, in the process
     // of the password generation process
-    public static void main(String[] args){
+    public static void main(String[] args) {
         
         // Represents initializing the number of words, 
         // symbols, numbers and capslock cases
@@ -102,19 +102,33 @@ public class xkcdpwgen {
                     break;
             }
         }
+
+        // Scanner scanner = new Scanner(System.in);
+
+        // System.out.println("Enter the number of words you need: ");
         
+        // words = scanner.nextInt();
+    
+        // System.out.println("Enter the number of caps lock cases you need: ");
+        // caps = scanner.nextInt();
+    
+        // System.out.println("Enter the number of numbers you need: ");
+        // numbers = scanner.nextInt();
+    
+        // System.out.println("Enter the number of symbols you need: ");
+        // unique_symbols = scanner.nextInt();
+    
         // Represents the helper function that generates the password
         String passwordGenerated = generation_password(unique_symbols, words, caps, numbers);
-    
-        // Represents initializing the list of words
-        List<String> wordsContained = goOverWordList(word_List);
         
         // Represents printing the password for the user that is 
         // generated
-        System.out.println(passwordGenerated);
+        System.out.println("Generated Password:" + passwordGenerated);
+        
+
     }
 
-    public static String generation_password(int words, int caps, int numbers, int unique_symbols) {
+    public static String generation_password(int unique_symbols, int words, int caps, int numbers) {
         
         SecureRandom random = new SecureRandom();
         
@@ -122,7 +136,7 @@ public class xkcdpwgen {
         StringBuilder PASSWORD_GENERATED = new StringBuilder();
         
         // Represents laoding the word list
-        List<String> wordsContained = goOverWordList(word_List);
+        List<String> wordsContained = goOverWordList(xkcdpwgen.word_List);
     
         // Represents the loop that goes over all of the words to 
         // take out random words from the word list
