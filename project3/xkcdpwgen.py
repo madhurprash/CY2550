@@ -34,16 +34,16 @@ def main():
     parser_toUse = argparse.ArgumentParser()
 
     ## Represents parsing the argument for the words to generate the password below
-    parser_toUse.add_argument("-w", "--words", type=int, default=4, help="number of words in the generated password")
+    parser_toUse.add_argument("-w", "--words", type=int, default=4, help="")
 
     ## Represents parsing the argument for the caps to generate the password below
-    parser_toUse.add_argument("-c", "--caps", type=int, default=0, help="number of words with capitalized first letters")
+    parser_toUse.add_argument("-c", "--caps", type=int, default=0, help="")
 
     ## Represents parsing the argument for the numbers to generate the password below
-    parser_toUse.add_argument("-n", "--numbers", type=int, default=0, help="number of random digits in the password")
+    parser_toUse.add_argument("-n", "--numbers", type=int, default=0, help="")
 
     ## Represents parsing the argument for the unique symbols to generate the password below
-    parser_toUse.add_argument("-s", "--symbols", type=int, default=0, help="number of random symbols in the password")
+    parser_toUse.add_argument("-s", "--symbols", type=int, default=0, help="")
 
     ## represents parsing the arguments
     args = parser_toUse.parse_args()
